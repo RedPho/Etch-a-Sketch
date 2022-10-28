@@ -1,8 +1,11 @@
-body{height:100vh;
+body {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
+  background-image: linear-gradient(90deg, #C33764, #1D2671);
+  font-family: Gabriola, Garamond, Rockwell, sans-serif ;
+  font-size: x-large;
 }
 
 #sketchpad {
@@ -10,42 +13,46 @@ body{height:100vh;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 600px;
-  width: 600px;
+  height: 500px;
+  width: 500px;
   border: thin black solid;
+  background-image: linear-gradient(150deg, #d4d4d4, #7451c1);
+  border-radius: 5px;
 }
 
 .row {
   display: flex;
   align-items: stretch;
   justify-content: center;
-  height: 600px;
+  height: 500px;
 }
 
 .pix {
   aspect-ratio: 1 / 1;
 }
 
-#blue {
-  background-color: blue;
-}
-
-#red {
-  background-color: red;
-}
-
-#green {
-  background-color: green;
-}
-
-#black {
-  background-color: black;
-}
-
-#white {
-  background-color: white;
-}
-
 h1 {
   margin: 0px;
+}
+
+#random {
+  background-image: linear-gradient(to right, Red , Orange, Yellow, Green, Blue, Indigo, Violet);
+  border-radius: 12px;
+}
+
+#reset {
+  border-radius: 12px;
+  background-color: darkorchid;
+  color: rgb(229, 221, 221);
+  font-size: x-large;
+  font-family: Gabriola, Garamond, Rockwell, sans-serif ;
+}
+
+#reset:hover {
+  background-color: rgb(168, 113, 255);
+  color: white;
+}
+
+.text {
+  color: cornsilk;
 }

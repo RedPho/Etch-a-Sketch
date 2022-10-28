@@ -1,6 +1,11 @@
 let sketchpad = document.querySelector("#sketchpad");
 let pixelCount = document.querySelector("h1");
 let selectedColor = "black";
+let picker = document.querySelector("#colorPicker");
+
+picker.addEventListener("input", function() {
+  selectedColor = picker.value;
+})
 
 function createGrid(x) {
   for (let i = 0; i < x; i++) {
@@ -60,6 +65,7 @@ function changeColor(e) {
     e.target.style.backgroundColor = selectedColor;
   }
 }
+
 
 
 // x tane div (.row)
