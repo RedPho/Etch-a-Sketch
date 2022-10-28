@@ -38,9 +38,11 @@ h1 {
 #random {
   background-image: linear-gradient(to right, Red , Orange, Yellow, Green, Blue, Indigo, Violet);
   border-radius: 12px;
+  cursor: pointer;
 }
 
 #reset {
+  cursor: pointer;
   border-radius: 12px;
   background-color: darkorchid;
   color: rgb(229, 221, 221);
@@ -55,4 +57,8 @@ h1 {
 
 .text {
   color: cornsilk;
+}
+
+#colorPicker {
+  cursor: pointer;
 }

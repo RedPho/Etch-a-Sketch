@@ -56,7 +56,6 @@ colors.forEach(color => {
   color.addEventListener("click", selectColor)
 });
 
-
 function changeColor(e) {
   if (selectedColor == "random") {
     e.target.style.backgroundColor = randomColor();
